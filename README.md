@@ -48,6 +48,9 @@ Hotels face multiple challenges with traditional manual booking systems:
 ## Tech Stack
 - **Language**: Java
 - **Database**: MySQL
+- **FrameWork**: JDBC
+- 
+- 
 - 
 ##Database Configuration
 1.Set up MySQL database
