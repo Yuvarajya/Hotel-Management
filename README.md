@@ -5,7 +5,7 @@ The **Hotel Management System** is a Java-based application designed to streamli
 
 ## Screenshots
 ### Customer Login & Room Booking
-![Customer Login](image1.png)
+![Customer Login](HotelManagementSystem/Outputs/Customer_Page.png)
 ![Room Booking](image2.png)
 
 ### Admin & Manager Dashboard
