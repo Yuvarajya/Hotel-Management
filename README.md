@@ -4,13 +4,16 @@
 The **Hotel Management System** is a Java-based application designed to streamline hotel operations such as room booking, customer management, employee management, and financial reporting. This system provides a digital solution for handling reservations, cancellations, check-ins, and check-outs efficiently, reducing errors and improving resource utilization.
 
 ## Screenshots
+### Login Panel
+![Login Panel](HotelManagementSystem/Outputs/Login_Image.png)
+
 ### Customer Login & Room Booking
 ![Customer Login](HotelManagementSystem/Outputs/Customer_Page.png)
-![Room Booking](image2.png)
+![Room Booking](HotelManagementSystem/Outputs/Booking_Room.png)
 
 ### Admin & Manager Dashboard
-![Admin Panel](image3.png)
-![Employee Management](image4.png)
+![Admin Panel](HotelManagementSystem/Outputs/Admin_Page.png)
+![Employee Management](HotelManagementSystem/Outputs/ManageEmployees.png)
 
 ## Features
 ### Customer Module
