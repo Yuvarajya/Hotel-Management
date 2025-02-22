@@ -45,8 +45,12 @@ Hotels face multiple challenges with traditional manual booking systems:
 ## Tech Stack
 - **Language**: Java
 - **Database**: MySQL
+- 
+##Database Configuration
+1.Set up MySQL database
+2.Import the provided SQL schema
+3.Update database credentials in config.properties
 
-## Setup & Run Instructions
 ### Clone the Repository
 ```sh
 git clone https://github.com/YourUsername/HotelManagementSystem.git
