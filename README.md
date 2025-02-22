@@ -1,138 +1,130 @@
-📌 Overview
+Hotel Management System
 
-The Hotel Management System is a robust, Java-based application designed to optimize hotel operations through an intuitive and efficient interface. It automates room reservations, employee management, billing, and customer record handling to ensure seamless hotel operations.
+Overview
 
-✨ Key Features
+The Hotel Management System is a Java-based application designed to streamline hotel operations such as room booking, customer management, employee management, and financial reporting. This system provides a digital solution for handling reservations, cancellations, check-ins, and check-outs efficiently, reducing errors and improving resource utilization.
 
-🔹 Customer Module
+Screenshots
 
-📌 View Room Availability – Check available rooms with details like type, capacity, and pricing.
+Customer Login & Room Booking
 
-🏠 Book a Room – Effortless room reservations with a simple form.
 
-❌ Cancel Booking – Cancel room reservations quickly by providing customer details.
 
-🔹 Manager Module
 
-🔍 View Room Details – View and manage room availability and information.
+Admin & Manager Dashboard
 
-➕ Add Room – Add new rooms with relevant details.
 
-🏁 Check-Out Management – Streamline customer check-out processes.
 
-📝 Check-In/Out Records – Maintain a log of customer check-ins and check-outs.
 
-🏢 View Employee Details – Access employee names, designations, and contact info.
+Features
 
-🔧 Manage Employee Information – Update employee records as needed.
+Customer Module
 
-🔹 Admin Module
+View room availability
 
-👥 Manage Employee Details – Add, update, or remove employees.
+Book and cancel rooms
 
-📑 View Customer Records – Access detailed customer reservations and contact info.
+Check-in and check-out details
 
-📊 Earnings Report – View revenue generated from hotel bookings.
+Secure customer data management
 
-🛠️ Technologies Used
+Manager Module
 
-Programming Language: Java
+View and add rooms
+
+Handle customer check-out
+
+View and manage employee details
+
+Admin Module
+
+Manage employee records
+
+View customer information
+
+Generate earnings reports
+
+Problem Statement
+
+Hotels face multiple challenges with traditional manual booking systems:
+
+High error rates in manual reservations
+
+Inefficient room allocation
+
+Poor customer record management
+
+Complex billing procedures
+
+Proposed Solution
+
+Automated Booking System: Ensures quick and error-free reservations
+
+Real-time Room Availability: Provides accurate room status
+
+Secure Data Management: Stores customer and employee information securely
+
+Integrated Billing System: Simplifies transactions and financial tracking
+
+Tech Stack
+
+Language: Java
 
 Database: MySQL
 
-Development Environment: IntelliJ IDEA, Java JDK 17
+Framework: JavaFX (for UI)
 
-🏗️ System Architecture
+Setup & Run Instructions
 
-The system operates with three primary user roles:
+Clone the Repository
 
-Customer – Handles room reservations.
+git clone https://github.com/YourUsername/HotelManagementSystem.git
+cd HotelManagementSystem
 
-Manager – Manages rooms and employees.
+Backend Setup
 
-Admin – Oversees system functionality and financial reports.
+cd backend
+javac Main.java
+java Main
 
-❌ Problem Statement
+Database Configuration
 
-Common challenges faced by hotels:
+Set up MySQL database
 
-📉 Manual booking errors and inefficiencies
+Import the provided SQL schema
 
-🗃️ Poor customer record management
+Update database credentials in config.properties
 
-❌ Complicated billing systems
+Frontend Setup
 
-🏢 Ineffective room allocation
+cd frontend
+npm install
+npm run dev
 
-✅ Solution
+Advantages
 
-This automated system provides:
+24/7 Online Booking
 
-🏠 Real-time room availability tracking
+User-friendly Interface
 
-💡 Optimized booking processes
+Automated Reports & Analytics
 
-🔐 Secure customer data management
+Secure Data Management
 
-📊 Seamless employee and financial reporting
+Disadvantages
 
-⚡ Benefits
+Requires a stable internet connection
 
-✅ 24/7 Online Booking – Book rooms anytime, anywhere.
-✅ Time Efficiency – Reduces manual workload and errors.
-✅ Data Security – Ensures proper record management.
+Cannot verify customer identity automatically
 
-⚠️ Limitations
+Future Scope
 
-⚠ Requires a stable internet connection.
-⚠ Manual identity verification is needed.
+AI-driven personalized booking recommendations
 
-🚀 Future Enhancements
+Integration with third-party travel platforms
 
-The future scope of this system includes:
+Mobile application support
 
-🤖 Automated Check-ins & Check-outs
+License
 
-🎯 Personalized Guest Offers
-
-🔗 Integration with Travel & Booking Platforms
-
-🔧 Installation & Usage
-
-Clone the Repository:
-
-git clone https://github.com/yourusername/hotel-management-system.git
-
-Set Up the Project: Import it into IntelliJ IDEA or any Java-supported IDE.
-
-Configure the Database: Ensure MySQL is set up with the required schema.
-
-Run the Application: Log in as an Admin, Manager, or Customer to start using the system.
-
-📸 Screenshots
-
-🏁 Welcome Screen
-
-
-
-📌 Customer Booking
-
-
-
-📋 Manager Dashboard
-
-
-
-📊 Admin Panel
-
-
-
-👨‍💻 Contributors
-
-Your Name – Lead Developer
-
-Other Contributors – Role
-
-📜 License
-
-This project is licensed under the MIT License.
+This project is open-source and available under the MIT License.
