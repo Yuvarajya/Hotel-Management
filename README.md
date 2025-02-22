@@ -57,5 +57,5 @@ Hotels face multiple challenges with traditional manual booking systems:
 
 ### Clone the Repository
 ```sh
-git clone https://github.com/YourUsername/HotelManagementSystem.git
+git clone https://github.com/Yuvarajya/Hotel-Management.git
 cd HotelManagementSystem
